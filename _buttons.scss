@@ -1,0 +1,35 @@
+
+%btn-base {
+  display: block;
+  margin: 20px auto;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
+.mi-boton {
+  @extend %btn-base;
+  background-color: $primary-color;
+  color: white;
+
+  &:hover {
+    background-color: $primary-hover;
+    transform: scale(1.05);
+  }
+}
+
+
+.mi-boton-warning {
+  @extend %btn-base;
+  background-color: $warning-color;
+  color: black;
+
+  &:hover {
+    background-color: $warning-hover;
+    transform: scale(1.05);
+  }
+}
