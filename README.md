@@ -1,3 +1,3 @@
-Hola Profe escribo por acá porque no me acuerdo si al entregar te deja mandar mensaje, quería saber si en la devolución me podrían explicar porque al agregar el navbar con boostrap aparece un rectangulo blanco y como se arregal así para la proxima ya sé desde ya muchas gracias
+
 
 
