@@ -89,10 +89,12 @@ footer img {
 
 img {
   max-width: 100%;
-  height: auto;
   border-radius: 10px;
+  width: 100%;
+  height: auto; 
+  object-fit: cover;
+  display: block;
 }
-
 
 nav {
   display: flex;
@@ -169,5 +171,70 @@ main {
   p {
     font-size: 1.1rem;
     @media (max-width: 480px) { font-size: 1rem; }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+ 
+  body {
+    padding: 0 30px;
+    font-size: 1.05rem;
+  }
+
+  
+  nav {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+  }
+
+  nav ul {
+    justify-content: center;
+    gap: 25px;
+  }
+
+  
+  .description {
+    max-width: 90%;
+    font-size: 1.1rem;
+  }
+
+  main h1 {
+    font-size: 2.2rem;
+  }
+
+  main h2 {
+    font-size: 1.8rem;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .character {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+
+  .character img {
+    max-width: 180px;
+  }
+
+  .character p {
+    font-size: 17px;
+  }
+
+  footer {
+    margin-top: 40px;
+    font-size: 0.95rem;
+  }
+
+  footer img {
+    width: 90px;
+    height: auto;
   }
 }
